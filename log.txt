@@ -1,0 +1,42 @@
+commit 051cd25bf72305b8d134e17d70a6494be61c8db4
+Author: CassiusMercellus <148610250+CassiusMercellus@users.noreply.github.com>
+Date:   Sat Jan 13 12:45:34 2024 -0800
+
+    updated git log
+
+commit 0c5d9cb1eac64b261270a16ba4c20abe5b3a0d67
+Merge: 30b3bc5 76b7fbe
+Author: CassiusMercellus <148610250+CassiusMercellus@users.noreply.github.com>
+Date:   Sat Jan 13 12:44:19 2024 -0800
+
+    Merge branch 'develop'
+
+commit 30b3bc5a932185e4272e4b767b250344e81be6ba
+Author: CassiusMercellus <148610250+CassiusMercellus@users.noreply.github.com>
+Date:   Sat Jan 13 12:41:40 2024 -0800
+
+    git log file
+
+commit 76b7fbeda1956e724a9d9fa256bf591e318c9606
+Author: CassiusMercellus <148610250+CassiusMercellus@users.noreply.github.com>
+Date:   Sat Jan 13 12:38:14 2024 -0800
+
+    removed useless file
+
+commit 31b5c0f998801d9284fb2fd509fc18a766e257fe
+Author: CassiusMercellus <148610250+CassiusMercellus@users.noreply.github.com>
+Date:   Sat Jan 13 12:37:00 2024 -0800
+
+    updated HTML and CSS
+
+commit 3064236683d664dfcd58d4ff712900e222d1e63c
+Author: CassiusMercellus <148610250+CassiusMercellus@users.noreply.github.com>
+Date:   Sat Jan 13 12:17:14 2024 -0800
+
+    added code to HTMl and CSS
+
+commit b44aa87e282169423eef70ebf8a6b8a93ae3cfa6
+Author: CassiusMercellus <148610250+CassiusMercellus@users.noreply.github.com>
+Date:   Sat Jan 13 12:01:35 2024 -0800
+
+    created HTML and CSS files
