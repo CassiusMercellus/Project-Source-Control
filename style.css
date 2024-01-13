@@ -14,10 +14,27 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.goodbye-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ec7063; /* Change the background color */
+    color: #fff; /* Change the text color */
 }
 
 h1 {
     color: #3498db;
+}
+
+h2 {
+    color: #fff; /* Change the text color */
+    background-color: #d9534f; /* Change the background color */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 p {
