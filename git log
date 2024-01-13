@@ -395,4 +395,98 @@ To https://github.com/CassiusMercellus/Project-Source-Control.git
    31b5c0f..76b7fbe  demo -> demo
 
 Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (demo)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
+$ git add -A
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
+$ git commit -m "git log file"
+[master 30b3bc5] git log file
+ 1 file changed, 398 insertions(+)
+ create mode 100644 git log
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.99 KiB | 1.50 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CassiusMercellus/Project-Source-Control.git
+   b44aa87..30b3bc5  master -> master
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (develop)
+$ git checkout demo
+Switched to branch 'demo'
+Your branch is up to date with 'origin/demo'.
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (demo)
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (develop)
+$ git merge demo
+Updating 3064236..76b7fbe
+Fast-forward
+ index.html |  5 +++++
+ style.css  | 17 +++++++++++++++++
+ 2 files changed, 22 insertions(+)
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (develop)
+$ git commit -m "merged demo and develop"
+On branch develop
+Your branch is ahead of 'origin/develop' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (develop)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CassiusMercellus/Project-Source-Control.git
+   3064236..76b7fbe  develop -> develop
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (develop)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
+$ git merge develop
+Merge made by the 'ort' strategy.
+ index.html |  5 +++++
+ style.css  | 17 +++++++++++++++++
+ 2 files changed, 22 insertions(+)
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
+$ git commit -m "Merged develop to master"
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 391 bytes | 391.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CassiusMercellus/Project-Source-Control.git
+   30b3bc5..0c5d9cb  master -> master
+
+Marce@LAPTOP-EE4LHTS0 MINGW64 /c/Development/Projects/Project Source Control (master)
 $
